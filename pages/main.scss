@@ -1,0 +1,32 @@
+.title {
+  color: violet;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  .rootCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    max-width: 25%;
+    max-height: 20%;
+    margin: 40px;
+
+    img {
+      height: 300px;
+      width: 300px;
+      cursor: pointer;
+    }
+
+    .card-image .card-title {
+      color: black;
+      text-transform: uppercase;
+    }
+  }
+}
